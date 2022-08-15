@@ -1,0 +1,639 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Merriweather:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   overflow-x: hidden;
+
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/*Titulo*/
+.header-titulo{
+    color: yellow;
+    font-family: 'Alatsi', sans-serif;
+     
+}
+.header-logo{
+    width: 24%;
+}
+/*menu de opciones*/
+.menu{
+    font-size: 18px;
+    
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    border: 2px  white;
+ 
+}
+/*Sección spot publicitario*/
+.seccion-spot{
+    background-color: #7a7d80;
+    
+    
+}
+.h3-spot{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 30px;
+}
+.video-spot{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 250px;
+}
+
+.categorias1{
+    padding: 60px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;;
+    
+}
+img{
+    max-width: 500px;
+}
+.autos{
+    font-size: 25px;
+    
+}
+.camionetas{
+    font-size: 25px;
+    
+}
+/*Categorias 2*/
+.categorias2{
+    padding: 60px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family:  'Oswald', sans-serif;;
+}
+.clasicos{
+    font-size: 25px;
+    
+}
+
+.moto{
+    font-size: 25px;
+}
+
+/*Footer*/
+ footer { 
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.footer-texto{
+  display: flex;
+  justify-content: center;
+
+}
+
+/*Logos*/
+.footer-iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgba(22, 22, 22, 0.833);
+}
+.instaLogo {
+  
+    width: 40px;
+ 
+  }
+  .twitterLogo {
+    width: 40px;
+  
+  }
+
+  /* Nosotros */
+  .nosotros1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+.nosotros{
+    width: 30%;
+    
+}
+
+.nosotros h2{
+    font-size: 30px;
+    text-align: center;
+}
+.nosotros p{
+    font-family: 'Oswald', sans-serif;
+}
+.nosotros img{
+    max-height: 57%;
+    max-width: 500px;
+    margin-left: 10%;
+  }
+
+
+ /******UBICACION*****/
+ .main-ubicacion{
+    height: 40vw;
+ }
+  .direccion{
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.direccion1{
+    border: 1px solid black; 
+   font-size: 19px;
+   text-align: center;
+   font-family: 'Oswald', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   
+}
+
+.direccion2{
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
+}
+
+
+/*****FORMULARIO DE CONTACTO*****/
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10rem;
+}
+.contacto h3{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    background-color: #ccc;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.43);
+    border: black solid 1px;
+    width: 35%;
+    height: 500px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    
+    
+    
+}
+input{
+border-radius: 0.5rem;
+height: 2rem;
+
+
+}
+.contenedor-formulario{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+ /* Vehículos */
+
+.vehiculos{
+    display: flex;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+    padding: 8%;
+    gap: 30px;
+    
+}
+
+.vehiculos a{
+    font-size: 20px;
+    margin: 23%;
+}
+.vehiculos ul li{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25%;
+}
+.vehiculos img{
+    max-height: 53%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+
+/*GRID AREAS*/
+header{
+    grid-area: header;
+    
+}
+aside{
+    grid-area: aside;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+/*INDEX MEDIAQUERY*/
+.gridPadre{
+    display: grid;
+    grid-template-rows: 10% 90% 5%;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+}
+
+@media (max-width:768px){
+    aside{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+   .categorias1{
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+   .categorias2{
+    display: flex;
+    flex-wrap: wrap;
+   }
+ }
+ @media (max-width:375px){
+    aside{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        width: 80vw;
+    }
+    main .categorias1 img{
+        width: 90vw;
+       
+
+    }
+    footer{
+        width: 100%;
+    }
+   .categorias1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+   }
+   .categorias2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   }
+   main .categorias2 img{
+    width: 90vw;
+   
+
+}
+   
+ }
+
+
+ /*********MEDIA QUERY NOSOTROS***********/
+.main-nosotros{
+    grid-area: main-nosotros;
+}
+ .gridPadre-nosotros{
+    display: grid;
+    grid-template-rows: 10% 90% 10%;
+    grid-template-areas: 
+    "header header header"
+    "main-nosotros main-nosotros main-nosotros"
+    "main-nosotros main-nosotros main-nosotros"
+    "footer footer footer";
+ }
+
+ @media(max-width:768px){
+    header{
+        padding: 0;
+        margin: 0;
+    }
+    .main-nosotr0s{
+        padding: 0;
+        margin: 0;
+    }
+   .header-titulo{
+    display: none;
+   }
+    .nosotros1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .nosotros1 p{
+        width: 600px;
+        font-size: 1.4rem;
+        
+    }
+  
+        
+ }
+
+ @media(max-width:375px){
+    header{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .main-nosotros{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+
+    }
+   .header-titulo{
+    display: none;
+   }
+    .nosotros1{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .nosotros p{
+        width: 100%;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .nosotros img{
+        width: 90vw;
+    }
+  
+        
+ }
+
+ 
+
+/********MEDIA QUERY UBICACION**********/
+.main-ubicacion{
+    grid-area: main-ubicacion;
+}
+
+.gridPadre-ubicacion{
+    display: grid;
+   grid-template-rows: 10% 90% 5%;
+    grid-template-areas: 
+    "header"
+    "main-ubicacion"
+    "main-ubicacion"
+    "footer"
+    ;
+}
+
+@media all and (min-width:375px) and (max-width:768px){
+
+    .main-ubicacion{
+        height: 1%;
+        width: 100%;
+        
+        
+    }
+    .direccion{
+        display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       width: 100%;
+      
+    }
+ 
+    .direccion2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        
+    }
+    .direccion1{
+        width: 100%;
+        
+    }
+   
+   
+}
+
+/********MEDIA QUERY VEHICULOS**********/
+.gridPadre-vehiculos{
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+@media all and (min-width:375px) and (max-width:768px){
+    .vehiculos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .vehiculo1{
+        width: 100%;
+    }
+    .vehiculos a{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .vehiculos{
+        width: 100%;
+    }
+    .vehiculos img{
+        width: 80vw;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1024px){
+   .vehiculos{
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+   .vehiculo1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+    padding: 10%;
+   }
+   .vehiculo1 img{
+    width: 100%;
+   }
+   .vehiculo1 ul{
+    display: flex;
+    
+    flex-direction: column;
+   
+   }
+   .vehiculo ul li{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .menu{
+    display: none;
+   }
+   .header-titulo{
+    display: none;
+   }
+   .vehiculos a{
+    font-size: 2rem;
+    margin-top: 20px;
+    
+   }
+}
+
+/**********MEDIA QUERY CONTACTO*************/
+.gridPadre-contacto{
+    grid-template-areas: 
+    "header header header"
+    "main-contacto main-contacto main-contacto"
+    "footer footer footer";
+}
+@media (max-width:375px) {
+.main-contacto{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: start;
+}
+.contacto{
+    width: 100%;
+    display: flex;
+    height: 600px;
+    margin: 0;
+    padding: 0%;
+
+
+}
+.contenedor-formulario{
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+form input{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+}
+@media all and (min-width:768px) and (max-width:1024px){
+    .main-contacto{
+        width: 100%;
+        
+    }
+    .contacto{
+        width: 100%;
+    }
+    .contenedor-formulario{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+        
+    }
+    form input{
+        width: 100%;
+    }
+    }
