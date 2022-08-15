@@ -583,7 +583,7 @@ footer{
     "main-contacto main-contacto main-contacto"
     "footer footer footer";
 }
-@media (max-width:375px) {
+@media (max-width:768px) {
 .main-contacto{
     width: 100%;
     display: flex;
