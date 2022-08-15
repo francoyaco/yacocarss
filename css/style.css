@@ -24,7 +24,7 @@ header{
 }
 
 /*Titulo*/
-.header-titulo{
+.animate__animated{
     color: yellow;
     font-family: 'Alatsi', sans-serif;
      
@@ -108,7 +108,10 @@ img{
 .moto{
     font-size: 25px;
 }
-
+.animate__heartBeat{
+    --animate-duration: 20s;
+    --animate-delay: 0.1s;
+}
 /*Footer*/
  footer { 
    display: flex;
