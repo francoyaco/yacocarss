@@ -1,13 +1,15 @@
 .imgCarousel{
-    height: 350px;
+    height: 550px;
     object-fit: cover;
+    
 }
 
 footer{
     background-color: black;
     height: 12rem;
-
+height: 50px;
 }
 footer p{
     color: white;
+    margin-top: 200px;
 }
