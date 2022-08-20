@@ -1,9 +1,10 @@
+/*INDEX CAROUSEL*/
 .imgCarousel{
    max-height: 500px;
     object-fit: cover;
     
 }
-
+/* footer */
 footer{
     background-color: black;
     
@@ -11,6 +12,7 @@ footer{
     width: 100%;
 
 }
+
 footer p{
     color: white;
 
@@ -19,7 +21,16 @@ footer p{
     height: 640px;
     object-fit: cover;
 }
-
+/* CARDS UBICACION */
 .card-body iframe{
     width: 100%;
+}
+.row{
+    row-gap: 60px;
+    column-gap: 90px;
+    margin: 0;
+    padding: 0;
+}
+.container-ubi{
+    margin-left: 200px;
 }
