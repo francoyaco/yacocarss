@@ -20,3 +20,6 @@ footer p{
     object-fit: cover;
 }
 
+.card-body iframe{
+    width: 100%;
+}
