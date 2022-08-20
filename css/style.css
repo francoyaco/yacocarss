@@ -1,15 +1,22 @@
 .imgCarousel{
-    height: 550px;
+   max-height: 500px;
     object-fit: cover;
     
 }
 
 footer{
     background-color: black;
-    height: 12rem;
-height: 50px;
+    
+    margin-top: 350px;
+    width: 100%;
+
 }
 footer p{
     color: white;
-    margin-top: 200px;
+
 }
+.imgCarouselNosotros{
+    height: 640px;
+    object-fit: cover;
+}
+
