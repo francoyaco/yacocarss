@@ -15,6 +15,7 @@ footer{
 
 footer p{
     color: white;
+    
 
 }
 .imgCarouselNosotros{
@@ -27,7 +28,6 @@ footer p{
 }
 .row{
     row-gap: 60px;
-    column-gap: 90px;
     margin: 0;
     padding: 0;
 }
