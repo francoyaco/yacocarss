@@ -71,7 +71,21 @@ form{
     border-radius: 8%;
     
 }
-
+/*Nosotros*/
 .nosotros-p{
     font-family: 'Space Mono', monospace;
+}
+
+/*MEDIA QUERY FORMULARIO*/
+
+@media(max-width:375px){
+    form{
+        width: 100%;
+    }
+}
+
+@media all and (min-width:376px) and (max-width:768px){
+    form{
+        width: 100%;
+    }
 }
