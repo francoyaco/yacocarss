@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Merriweather:wght@300&family=Oswald:wght@300&family=Space+Mono&display=swap');
+
 /*INDEX CAROUSEL*/
 .imgCarousel{
    max-height: 500px;
@@ -68,4 +70,8 @@ form{
     width: 100%;
     border-radius: 8%;
     
+}
+
+.nosotros-p{
+    font-family: 'Space Mono', monospace;
 }
