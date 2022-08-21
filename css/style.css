@@ -7,7 +7,7 @@
 /* footer */
 footer{
     background-color: black;
-    
+    height: 100px;
     margin-top: 350px;
     width: 100%;
 
@@ -34,3 +34,18 @@ footer p{
 .container-ubi{
     margin-left: 200px;
 }
+
+/*FORMULARIO CONTACTO*/
+form{
+    border: 1px solid black;
+    width: 32%;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.43);
+    
+}
+.form-control{
+    width: 100%;
+    border-radius: 8%;
+    
+}
+    
+
