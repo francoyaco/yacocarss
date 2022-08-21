@@ -36,10 +36,19 @@ footer p{
 }
 
 /*FORMULARIO CONTACTO*/
+
+.main-contacto{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
 form{
     border: 1px solid black;
     width: 32%;
     box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.43);
+   
     
 }
 .form-control{
