@@ -6,6 +6,19 @@
     object-fit: cover;
     
 }
+.nav1 li a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+    font-size: 1.5rem;
+  }
+  .nav1 li a:hover,
+  a:focus {
+    background-size: 100% 2px;
+  }
 
 /* footer */
 footer{
@@ -82,6 +95,9 @@ form{
 /*Nosotros*/
 .nosotros-p{
     font-family: 'Space Mono', monospace;
+}
+.p-nosotros1{
+    width: 80%;
 }
 
 /*MEDIA QUERY FORMULARIO*/
