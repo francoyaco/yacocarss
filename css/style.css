@@ -95,6 +95,7 @@ form{
 .formuText{
 text-align: center;
 font-size: 20px;
+
 }
 .form-control{
     width: 100%;
@@ -105,7 +106,9 @@ font-size: 20px;
 .label-form{
     background-color: rgb(250, 249, 249);
 }
-
+.boton-form{
+    background-color: rgb(49, 49, 49);
+}
 
 /*Nosotros*/
 .nosotros-p{
