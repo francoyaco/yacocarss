@@ -26,11 +26,17 @@
   }
   header{
     background-color: rgb(51, 50, 50);
+   
   }
 
   .navbar-toggler{
     background-color: rgb(253, 252, 252);
   }
+  .logoYaco{
+    max-height: 110px;
+   
+  }
+
 /* footer */
 footer{
     background-color: black;
