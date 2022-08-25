@@ -14,10 +14,17 @@
     background-size: 0% 2px;
     transition: background-size 0.3s;
     font-size: 1.5rem;
+    color: white;
   }
   .nav1 li a:hover,
   a:focus {
     background-size: 100% 2px;
+  }
+  h1{
+    color: white;
+  }
+  header{
+    background-color: rgb(51, 50, 50);
   }
 
 /* footer */
@@ -29,7 +36,7 @@ footer{
 
 }
 body{
-    background-color: #ccc;
+    background-color: rgb(66, 65, 65);
 }
 
 footer p{
@@ -95,11 +102,14 @@ form{
 /*Nosotros*/
 .nosotros-p{
     font-family: 'Space Mono', monospace;
+    color: rgb(212, 207, 207);
 }
 .p-nosotros1{
     width: 80%;
 }
-
+.h2-nosotros{
+    color: white;
+}
 /*MEDIA QUERY FORMULARIO*/
 
 @media(max-width:375px){
