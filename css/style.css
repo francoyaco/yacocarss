@@ -131,6 +131,10 @@ font-size: 20px;
 .h2-nosotros{
     color: white;
 }
+
+.boton-vehiculo{
+    background-color: rgb(56, 55, 55);
+}
 /*MEDIA QUERY FORMULARIO*/
 
 @media(max-width:375px){
