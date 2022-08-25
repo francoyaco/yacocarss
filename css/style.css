@@ -108,8 +108,14 @@ font-size: 20px;
 }
 .boton-form{
     background-color: rgb(49, 49, 49);
+    
 }
-
+.botonForm{
+    display: flex;
+   
+    justify-content: center;
+    
+}
 /*Nosotros*/
 .nosotros-p{
     font-family: 'Space Mono', monospace;
